@@ -1,0 +1,118 @@
+{
+  "responseHeader": {
+    "status": 0,
+    "QTime": 0,
+    "params": {
+      "indent": "true",
+      "q": "*:*",
+      "_": "1420779831222",
+      "wt": "json"
+    }
+  },
+  "response": {
+    "numFound": 40,
+    "start": 0,
+    "docs": [
+      {
+        "_uniqueKey": "[\"kairosdb.datastore.query_sample_size\",\"66c69975aba816ce000bc5c586b2566f\"]",
+        "type": "bigint",
+        "metric_name": [
+          "kairosdb.datastore.query_sample_size",
+          "testseries"
+        ],
+        "tag_id": "66c69975aba816ce000bc5c586b2566f",
+        "host": "home-linux",
+        "query_index": "1"
+      },
+      {
+        "_uniqueKey": "[\"kairosdb.datastore.query_row_count\",\"66c69975aba816ce000bc5c586b2566f\"]",
+        "type": "bigint",
+        "metric_name": [
+          "kairosdb.datastore.query_row_count",
+          "testseries"
+        ],
+        "tag_id": "66c69975aba816ce000bc5c586b2566f",
+        "host": "home-linux",
+        "query_index": "1"
+      },
+      {
+        "_uniqueKey": "[\"kairosdb.datastore.query_time\",\"66c69975aba816ce000bc5c586b2566f\"]",
+        "type": "bigint",
+        "metric_name": [
+          "kairosdb.datastore.query_time",
+          "testseries"
+        ],
+        "tag_id": "66c69975aba816ce000bc5c586b2566f",
+        "host": "home-linux",
+        "query_index": "1"
+      },
+      {
+        "_uniqueKey": "[\"kairosdb.http.query_time\",\"66c69975aba816ce000bc5c586b2566f\"]",
+        "type": "bigint",
+        "metric_name": [
+          "kairosdb.http.query_time",
+          "testseries"
+        ],
+        "tag_id": "66c69975aba816ce000bc5c586b2566f",
+        "host": "home-linux",
+        "query_index": "1"
+      },
+      {
+        "_uniqueKey": "[\"kairosdb.metric_counters\",\"a61d977098d82cac604d041e98df5aa6\"]",
+        "type": "bigint",
+        "metric_name": [
+          "kairosdb.metric_counters",
+          "testseries"
+        ],
+        "tag_id": "a61d977098d82cac604d041e98df5aa6",
+        "host": "home-linux"
+      },
+      {
+        "_uniqueKey": "[\"testseries\",\"bf31963ef2c1ef9ffcbfc0a61f267619\"]",
+        "type": "custom",
+        "metric_name": "testseries",
+        "tag_id": "bf31963ef2c1ef9ffcbfc0a61f267619",
+        "customerid": "dreamworks",
+        "host": "server_1"
+      },
+      {
+        "_uniqueKey": "[\"testseries\",\"d9958beddf92a16fb4189dff5cfd00ae\"]",
+        "type": "custom",
+        "metric_name": "testseries",
+        "tag_id": "d9958beddf92a16fb4189dff5cfd00ae",
+        "customerid": "dreamworks",
+        "host": "server_2"
+      },
+      {
+        "_uniqueKey": "[\"testseries\",\"b1d126f522dd1d2b68e412bd9109ee0e\"]",
+        "type": "custom",
+        "metric_name": "testseries",
+        "tag_id": "b1d126f522dd1d2b68e412bd9109ee0e",
+        "customerid": "aruba",
+        "host": "server_1"
+      },
+      {
+        "_uniqueKey": "[\"kairosdb.datastore.query_sample_size\",\"b640792964a796d83a9b0bface1bb795\"]",
+        "type": "bigint",
+        "metric_name": [
+          "kairosdb.datastore.query_sample_size",
+          "hostview"
+        ],
+        "tag_id": "b640792964a796d83a9b0bface1bb795",
+        "host": "home-linux",
+        "query_index": "1"
+      },
+      {
+        "_uniqueKey": "[\"kairosdb.datastore.query_row_count\",\"b640792964a796d83a9b0bface1bb795\"]",
+        "type": "bigint",
+        "metric_name": [
+          "kairosdb.datastore.query_row_count",
+          "hostview"
+        ],
+        "tag_id": "b640792964a796d83a9b0bface1bb795",
+        "host": "home-linux",
+        "query_index": "1"
+      }
+    ]
+  }
+}

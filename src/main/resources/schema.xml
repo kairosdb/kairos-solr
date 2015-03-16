@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<schema name="timeseries_search" version="1.5">
+	<types>
+		<fieldType name="string" class="solr.StrField"/>
+		<fieldType name="text" class="solr.TextField">
+			<analyzer>
+				<tokenizer class="solr.StandardTokenizerFactory"/>
+				<filter class="solr.LowerCaseFilterFactory"/>
+			</analyzer>
+		</fieldType>
+		<fieldType name="int" class="solr.TrieIntField"/>
+	</types>
+	<fields>
+		<field name="metric_name" type="text" indexed="true" stored="true"/>
+		<field name="tag_id" type="text" indexed="true" stored="true"/>
+		<field name="type" type="text" indexed="true" stored="true"/>
+
+		<dynamicField name="tags*" type="text" indexed="true"  stored="true"/>
+		<dynamicField name="*" type="text" indexed="true"  stored="true"/>
+	</fields>
+
+
+	<defaultSearchField>metric_name</defaultSearchField>
+	<uniqueKey>(metric_name,tag_id)</uniqueKey>
+
+</schema>
